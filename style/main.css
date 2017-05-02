@@ -10,8 +10,11 @@ a {
     text-decoration: none;
     color: #656565;
 }
-li {
-    list-style: none;
+.floatLeft {
+    float: left;
+}
+.floatRight {
+    float: right;
 }
 
 /*============
@@ -24,7 +27,6 @@ li {
 }
 .leftArea {
     float: left;
-
 }
 .rightArea {
     float: right;
@@ -47,5 +49,65 @@ li {
 }
 .logo {
     padding-left: 41px;
-    padding-top: 13px;
+    padding-top: 13px;  
+}
+
+/*============
+**  SEARCH BOX **
+============**/
+.searchBox {
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+    /*background-color: white;   */
+}
+.searchText {
+    width: 350px;
+    height: 35px;
+    line-height: 35px\9; /* FOR IE */
+    /*line-height: 14px;*/
+    /*padding: 11px 5px 10px;*/
+    padding: 0 5px;
+}
+.searchBtn {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    background-color: #FF8C00;
+    color: white;
+}
+
+/*============
+**  SHOP CART **
+============**/
+.shopCart {
+    width: 145px;
+    height: 35px;
+    background-color: #FF8C00;
+    margin-top: 23px;
+    line-height: 35px;
+    font-size: 14px;
+    color: white;
+    margin-right: 59px;
+}
+.shopText {
+    /*line-height: 35px;
+    font-size: 14px;
+    color: white;*/
+    height: 100%;
+    width: 87px;
+    border-right: #E27A00 solid 1px;
+    background: url(../images/icons/shopcart.png) 10px center no-repeat;
+    text-indent: 40px;
+}
+.shopNum {
+    width: 27px;
+    height: 35px;
+    border-left: #FF9C01 solid 1px;
+    /*line-height: 35px;
+    font-size: 14px;
+    color: white;*/
+    background: url(../images/icons/Dropdown.png) 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
 }

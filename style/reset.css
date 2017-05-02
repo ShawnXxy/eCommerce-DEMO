@@ -5,3 +5,22 @@ html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h
 	vertical-align: baseline;
 	border: 0;
 }
+li {
+    list-style: none;
+}
+img {
+	border: none;
+}
+input, select, textarea {
+    border: none;
+    outline: none;
+	/*background: none;*/
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
